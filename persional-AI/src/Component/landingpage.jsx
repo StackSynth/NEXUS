@@ -8,6 +8,7 @@ function LandingPage() {
     <div>
       <div className="section">
         <div className="header">
+          <h1>NEXUS</h1>
           
         </div>
       </div>

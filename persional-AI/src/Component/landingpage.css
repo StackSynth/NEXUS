@@ -1,12 +1,3 @@
 body {
     background: linear-gradient(black, #1e1b4b);
 }
-
-.heading {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #fff;
-}
