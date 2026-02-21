@@ -4,7 +4,7 @@ function LandingPage() {
   return (
     <div>
       <div className="section">
-        <div className="header">
+        <div className="container">
           <h1>NEXUS</h1>
 
         </div>

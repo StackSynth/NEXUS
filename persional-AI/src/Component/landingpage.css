@@ -1,0 +1,17 @@
+body {
+  background-image: url('/1748.jpg');
+  background-size: cover;         
+  background-repeat: no-repeat;  
+}
+.container {
+  
+  height: 845px;  
+  width: 1518px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(10, 9, 9, 0.3);
+}
+
