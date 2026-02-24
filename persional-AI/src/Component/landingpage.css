@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceland&family=Karla:ital,wght@0,200..800;1,200..800&family=Zen+Tokyo+Zoo&display=swap');
 body {
-  background-image: url('/1748.jpg');
-  background-size: cover;         
-  background-repeat: no-repeat;  
+  background: linear-gradient(270deg, rgb(148, 84, 95), rgb(132, 126, 126)); 
 }
 .container {
-  
+ 
   height: 845px;  
   width: 1518px;
   border-radius: 15px;
@@ -13,5 +12,13 @@ body {
   -webkit-backdrop-filter: blur(10px);
 
   border: 1px solid rgba(10, 9, 9, 0.3);
+}
+.container h1 {
+  font-family: 'Iceland', cursive;
+  font-size: 40px;
+  margin-top: 10px;
+  margin-left: 5%;
+  color: #090909;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
 }
 
