@@ -1,30 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceland&family=Karla:ital,wght@0,200..800;1,200..800&family=Zen+Tokyo+Zoo&display=swap');
-
- 
-body{
-    background:linear-gradient(270deg,#97cdce,#aeacac);
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    width: 375%;
-     background: rgba(126, 118, 118, 0.526);
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(10px);
-}
-
-.heading{
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Audiowide&family=Bruno+Ace&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Iceland&family=Karla:ital,wght@0,200..800;1,200..800&family=Zen+Tokyo+Zoo&display=swap');
+body {
+  height: 100vh;
   display: flex;
-  margin-bottom: 41%;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(135deg, #FFF3E2 25%,
+   #FFE5CA 45%,
+   #FA9884 75%,
+   #E74646 100%
+   );
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.heading h1{
-    font-family: 'Audiowide', cursive;
-    font-size: 50px;
-    color: #080808;
-    text-shadow: 2px 2px 4px rgba(248, 244, 244, 0.986);
+.container {
+  width: 1400px;
+  height: 700px;
+  padding: 60px 40px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(35px);
+  border-radius: 20px;
+  border: 1px solid rgba(250, 246, 246, 0.956);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
 }
+
+.heading h1 {
+  font-size: 50px;
+  padding-bottom: 50px;
+  font-weight: 100px;
+  font-family: "Anta", sans-serif;
+  letter-spacing: 3px;
+  color: rgb(17, 16, 16);
+}
+
