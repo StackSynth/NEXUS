@@ -15,7 +15,7 @@ const CTASection = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-white/10"></div>
       </motion.div>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -47,7 +47,7 @@ const CTASection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            Start your free 14-day trial today. No credit card required. 
+            Start your free 14-day trial today. No credit card required.
             Experience the power of AI-driven automation.
           </motion.p>
 
@@ -102,7 +102,7 @@ const CTASection = () => {
       {/* Floating Elements */}
       <motion.div
         className="absolute top-10 left-10 w-20 h-20 bg-white/10 rounded-full"
-        animate={{ 
+        animate={{
           y: [0, -20, 0],
           x: [0, 10, 0]
         }}
@@ -110,7 +110,7 @@ const CTASection = () => {
       />
       <motion.div
         className="absolute bottom-10 right-10 w-16 h-16 bg-white/10 rounded-full"
-        animate={{ 
+        animate={{
           y: [0, 20, 0],
           x: [0, -10, 0]
         }}

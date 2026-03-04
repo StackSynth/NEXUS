@@ -31,7 +31,7 @@ const stats = [
 
 const StatCard = ({ stat, index }) => {
   const Icon = stat.icon;
-  
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -47,7 +47,7 @@ const StatCard = ({ stat, index }) => {
       >
         <Icon className="w-6 h-6 text-white" />
       </motion.div>
-      
+
       <motion.div
         className="text-3xl font-bold text-gray-800 mb-2"
         initial={{ scale: 0 }}
@@ -57,11 +57,11 @@ const StatCard = ({ stat, index }) => {
       >
         {stat.value}
       </motion.div>
-      
+
       <div className="text-lg font-semibold text-gray-700 mb-1">
         {stat.label}
       </div>
-      
+
       <div className="text-sm text-gray-500">
         {stat.description}
       </div>
@@ -71,8 +71,8 @@ const StatCard = ({ stat, index }) => {
 
 const StatsSection = () => {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-gray-50 w-full">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}

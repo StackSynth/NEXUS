@@ -24,7 +24,7 @@ const HeroSection = () => {
         <div className="absolute -bottom-8 left-40 w-72 h-72 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </motion.div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ y: 20 }}
           animate={{ y: 0 }}
@@ -59,7 +59,7 @@ const HeroSection = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Experience the future of productivity with NovaFlow - your AI assistant that 
+            Experience the future of productivity with NovaFlow - your AI assistant that
             understands commands, automates tasks, and learns from your workflow patterns.
           </motion.p>
 
